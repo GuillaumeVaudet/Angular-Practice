@@ -1,0 +1,36 @@
+.facesnap-card {
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-shadow: lightgray 4px 4px 20px;
+}
+.facesnap-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.facesnap-card h2 {
+  margin-bottom: 0;
+}
+.facesnap-card p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.snapped {
+  background-color: rgba(144, 238, 144, 0.4);
+  color: darkgreen;
+}
+.snapped button {
+  box-shadow: lightgreen 3px 3px 7px;
+  color: darkgreen;
+}
+.snapped button:active {
+  box-shadow: lightgreen 0 0 5px;
+}
+.snapped button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=face-snap.component.css.map */

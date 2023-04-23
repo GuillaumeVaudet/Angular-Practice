@@ -3,16 +3,16 @@
   font-family: Roboto, Helvetica, sans-serif;
 }
 
-body{
+body {
   padding: 0;
   margin: 0;
 }
 
-h1{
+h1 {
   margin: 0;
 }
 
-button{
+button {
   background-color: transparent;
   box-sizing: border-box;
   border-radius: 5px;
@@ -23,10 +23,12 @@ button{
   outline: none;
   font-size: 14px;
   font-weight: 500;
-  &:active{
-    transform: translate(1px, 1px);
-  }
-  &:hover{
-    cursor: pointer;
-  }
 }
+button:active {
+  transform: translate(1px, 1px);
+}
+button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
